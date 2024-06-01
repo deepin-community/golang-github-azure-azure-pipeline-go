@@ -1,5 +1,44 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-azure-azure-pipeline-go (0.2.3-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Drew Parsons ]
+  * New upstream release.
+    - versioned Build-Depends: golang-github-mattn-go-ieproxy-dev (>= 0.0.1~)
+  * Standards-Version: 4.6.1
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 08 Nov 2022 19:03:50 +0100
+
+golang-github-azure-azure-pipeline-go (0.2.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * golang-github-azure-azure-pipeline-go-dev Depends:
+      golang-github-mattn-go-ieproxy-dev,
+      golang-github-pkg-errors-dev
+  * Standards-Version: 4.5.0
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 21 Jan 2020 19:50:00 +0800
+
+golang-github-azure-azure-pipeline-go (0.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Build-Depends: golang-github-mattn-go-ieproxy-dev,
+       golang-github-pkg-errors-dev
+  * Standards-Version: 4.4.1
+  * debhelper compatibility level 12: debhelper-compat (= 12)
+  * mark golang-github-azure-azure-pipeline-go-dev as Multi-Arch: foreign
+  * build with dh --builddirectory=_build
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 21 Jan 2020 09:27:31 +0800
+
+golang-github-azure-azure-pipeline-go (0.1.7-1) unstable; urgency=medium
+
+  * Initial release (Closes: #908934)
+
+ -- Dr. Tobias Quathamer <toddy@debian.org>  Sun, 16 Sep 2018 10:39:56 +0200
